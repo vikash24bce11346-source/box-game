@@ -1,0 +1,32 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%; /* it will contain whole page    consider this as a whole screen */
+    width: 100%;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.shape{
+    border: black solid 2px;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+    
+}
+.rec{
+    display: flex;
+}
+
+
